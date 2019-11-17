@@ -1,7 +1,7 @@
 <?php
-$dsn = 'database-1.c29mmzvhufs2.ap-northeast-1.rds.amazonaws.com';
-$username = 'administrator2';
-$password = 'administrator2';
+$dsn = 'mysql:host=database-1.c29mmzvhufs2.ap-northeast-1.rds.amazonaws.com;dbname=db_services';
+$username = 'lulo237';
+$password = 'lulo237';
 
 // try-catch
 try{
@@ -43,3 +43,5 @@ Last Access Time<br><br>
 <?php endforeach; ?>
 </body>
 </html>
+
+
